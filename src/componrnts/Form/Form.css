@@ -1,0 +1,48 @@
+.form{
+    width: 50%;
+    margin: 20px ;
+    box-shadow: 1px 2px 3px #eee;
+}
+.form-control{
+    width: 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+.input-container{
+    width: 80%;
+    height: 100px; 
+    padding: 20px;
+}
+.input-container label{
+    font-size: 16px;
+}
+.input-container .input{
+    font-size: 12px;
+    outline: none;
+    height :20px;
+    text-align: center;
+    width: 70%;
+    border-radius: 10px;
+}
+.input-container textarea{
+    text-align:left
+}
+.form button{
+    outline : none;
+    padding: 10px;
+    border: none;
+    background-color: rgb(26, 75, 235);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-size: 16px;
+    margin: 20px auto;
+    font-weight: bold;
+}
+.form h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
